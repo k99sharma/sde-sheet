@@ -16,6 +16,8 @@ public class Approach2{
 
 
         // counting inversions
+        // here we are checking if nums[i] > 2 x nums[j] in nums
+        // using two loops
         int j = mid+1;
         for (int i = start; i <= mid; i++) {
             while (j <= end && nums[i] > (2 * (long) nums[j]))
@@ -27,8 +29,6 @@ public class Approach2{
         int i=0;
         j=0;
         int counter = start;
-
-
 
         while(i < L.length && j < R.length){
             if(L[i] <= R[j]){
