@@ -1,10 +1,9 @@
-package Arrays.RotateImage;
+package Matrix.RotateImage;
 
 // Approach:
 // Time Complexity:
 // Space Complexity:
 
-import java.lang.reflect.Array;
 import java.util.*;
 public class Approach2 {
     public static void reverse(int[] nums){

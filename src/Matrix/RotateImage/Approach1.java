@@ -1,4 +1,4 @@
-package Arrays.RotateImage;
+package Matrix.RotateImage;
 
 // Approach: Using auxiliary space
 // Time Complexity: O(n^2)

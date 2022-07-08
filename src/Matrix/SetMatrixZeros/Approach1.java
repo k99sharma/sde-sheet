@@ -1,4 +1,4 @@
-package Arrays.SetMatrixZeros;
+package Matrix.SetMatrixZeros;
 
 // Approach: Using Extra Space
 // Time Complexity: O(n x n)
