@@ -1,8 +1,21 @@
 package Arrays.MajorityElementsII;
 
-// Approach: Extension of Boyre-Moore Voting Algorithm
+// Approach: Extension of Boorye-Moore Voting Algorithm
 // Time Complexity: O(n) for finding elements + O(n) to check if elements appear n/3
 // Space Complexity: O(1)
+
+/*
+    Explaination: why we only have maximum 2 elements or minimum 0 element
+    ex: n = 3, arr = [1,1,2]
+    limit = n/3 = 1
+
+    n = 16
+    limit = n/3 = 5
+    [1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,4]
+
+    so only 2 elements can be majority
+
+*/
 
 import java.util.*;
 
