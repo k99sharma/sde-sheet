@@ -1,8 +1,8 @@
 package Arrays.MoveAllNegativesToOneSide;
 
-// Approach:
-// Time Complexity:
-// Space Complexity:
+// Approach: Bruteforce
+// Time Complexity: O(n) for putting negative + O(n) for putting positive numbers
+// Space Complexity: O(n) for auxiliary array
 
 import java.util.*;
 public class Approach1 {
