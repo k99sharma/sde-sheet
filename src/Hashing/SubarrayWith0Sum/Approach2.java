@@ -1,4 +1,4 @@
-package Arrays.SubarrayWith0Sum;
+package Hashing.SubarrayWith0Sum;
 
 // Approach: Using Hashmap
 // Time Complexity: O(n)
