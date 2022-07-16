@@ -1,8 +1,8 @@
 package RecursionAndBacktracking.CombinationSumII;
 
-// Approach:
-// Time Complexity:
-// Space Complexity:
+// Approach: Recursion
+// Time Complexity: O(2^n) - O(2^n) for all possibilities + O(n log(n)) for sorting
+// Space Complexity: O(n) for recursive stack
 
 import java.util.*;
 public class Approach1 {
